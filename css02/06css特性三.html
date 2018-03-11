@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		#div1{
+			color: blue;
+		}
+		.one{
+			color: green；
+		}
+		p{
+			color: red /*!important*/;
+			/*!important优先级最高*/
+		}
+	</style>
+</head>
+<body>
+	<!-- class优先级高于p -->
+	<p class="one">
+		文字1
+	</p>
+	<!-- id优先级高于class -->
+	<p class="one" id="div1">
+		文字2
+	</p>
+	<!-- 行内优先级高于id -->
+	<p  class="one" id="div1" style="color:pink">
+		文字三
+	</p>
+</body>
+</html>

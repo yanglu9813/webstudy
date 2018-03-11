@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.one{
+			height: 300px;
+			width:  500px;
+			border: 1px solid green;
+
+			margin: 0 auto;
+			/*对标准流下的盒子居中显示*/
+
+			position: relative;
+		}
+		.two{
+			height: 100px;
+			width: 100px;
+			border: 1px solid yellowgreen;
+
+			/*position: absolute;
+			margin: 0 auto;*/
+			/*脱标，不能使盒子居中显示*/
+
+			/*position: static;
+			margin: 0 auto;*/
+			/*没脱标，可以让盒子居中显示*/
+		
+			/*定位的盒子居中显示应该这样*/
+			position: absolute;
+			left: 50%;
+			margin-left: -50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="one">
+		<div class="two">
+			
+		</div>
+	</div>
+</body>
+</html>

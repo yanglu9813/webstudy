@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>请根据以下css样式写出对应的html结构</title>
+	<style type="text/css">
+		div.div1 ul.box li,div.div2 p{
+			color: red;
+		}
+		div.box p.p1,div.box div.div1 p,p{
+			color: #81A9EE;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="div1">
+		<ul class="box">
+			<li>文字1</li>
+		</ul>
+	</div>
+	<div class="div2">
+		<p>文字2</p>
+	</div>
+
+
+	<div class="box">
+		<p class="p1">文字3</p>
+	</div>
+	<div class="box">
+	<div class="div1">
+			<p>文字4</p>
+	</div>
+	</div>
+	<p>文字5</p>
+
+</body>
+</html>

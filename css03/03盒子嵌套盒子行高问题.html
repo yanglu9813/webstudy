@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.one{
+			font-size: 20px;
+			line-height: 20px;
+			/*行高可以实现继承*/
+
+			/*line-height: 2em;*/
+			/*line-height: 120%;*/
+			/*当父元素设置的行高值除不带单位情况下，都是先与父元
+					素的文字大小相乘最后的结果，被子元素继承。*/
+
+			/*line-height: 2;*/
+			/*当父元素设置的行高值不带单位情况下，
+									行高=子元素文字大小*行高值*/
+		}
+		.two{
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="one">
+		<div class="two">
+			中文
+		</div>
+	</div>
+</body>
+</html>

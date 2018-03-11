@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		input{
+			border-style: none;
+			outline-style: none;
+		}
+		.username{
+			border: 1px red dashed;
+			background-color: blue;
+		}
+		.username:focus{
+			background-color: green; 
+		}
+		.email{
+			border-bottom: 1px red dashed;
+		}
+		.search{
+			border: 1px solid black;
+			background: url("serch.jpg") no-repeat;
+			background-position: right;
+		}
+	</style>
+</head>
+<body>
+	<!-- 表单优化写法 -->
+	<label for="username">用户名：</label>
+	<input type="text" class="username" id="username">
+	<br>
+	<br>
+	邮&nbsp&nbsp&nbsp箱：<input type="text" class="email"> 
+	<br>
+	<br>
+	密&nbsp&nbsp&nbsp码：<input type="text" class="search">
+</body>
+</html>

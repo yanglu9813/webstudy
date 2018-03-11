@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.one{
+			width: 300px;
+			height: 300px;
+			border-width: 1px;/*边框宽度*/
+			border-style: dashed;/*虚线*/
+			border-color: red;/*边框颜色*/
+		}
+		/*border的另一种写法*/
+		.two{
+			width: 300px;
+			height: 300px;
+			/*border-top: 1px solid blue;*/
+			border-left: 1px dotted red;
+			border-right: dashed pink;
+			border-bottom: 1px solid;
+
+			border-top-width: 1px;
+			border-top-style: solid;
+			border-top-color: blue;
+		}
+		/*border的属性连写*/
+		.three{
+			width: 300px;
+			height: 300px;
+			border: solid 1px red;
+			/*属性联写的时候没有先后顺序限制，边框颜色可以不写，
+			边框宽度可以不写*/
+		}
+	</style>
+</head>
+<body>
+	<div class="one">
+		
+	</div>
+	<br>
+	<br>
+	<div class="two">
+		
+	</div>
+	<br>
+	<br>
+	<div class="three">
+		
+	</div>
+</body>
+</html>

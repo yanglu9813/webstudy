@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		#p_color{
+			color: #D6E110;
+		}
+		#p_size{
+			font-size: 30px;
+		}
+		#p3_color{
+			color: #D6E110;
+		}
+	</style>
+</head>
+<body>
+	<!-- js中id名称唯一，现在符合css语法规范不报错，js中报错 -->
+	<p id="p_color">p1</p>
+	<p id="p_color">p2</p>
+	<!-- 一个标签只能调用一个id样式，这样用是错误的 -->
+	<p id="p3_color p_size">p3</p>
+	<p>p4</p>
+
+</body>
+</html>

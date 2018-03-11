@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.box{
+			width: 500px;
+			height: 400px;
+			margin: 30px auto;
+			background-color: pink;
+		}
+		.header{
+			height: 50px;
+			background-color: yellowgreen;
+		}
+		.container{
+			/*height: 300px;*/
+			/*当子元素设置了浮动，父元素没有高度的时候，会造成页面布局混乱。*/
+			background-color: blue;
+
+			/*清除浮动，方案二*/
+			/*overflow: hidden;*/
+			/*如果父盒子中有定位的元素，一般不推荐使用该种方式清除浮动。*/
+		}
+		.foot{
+			height: 50px;
+			background-color: red;
+		}
+		.left{
+			width: 250px;
+			height: 300px;
+			background-color: #43914B;
+			float: left;
+		}
+		.right{
+			width: 250px;
+			height: 300px;
+			background-color: #6E65D2;
+			float: right;
+		}
+
+		/*清除浮动，方案一*/
+		/*.clearfix{
+			clear: both;
+		}*/
+
+		/*清除浮动，方案三*/
+		/*在需要清除浮动的标签中调用此类*/
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+		}
+		.clearfix{
+			zoom: 1;	/*为了兼容IE浏览器*/
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="header"></div>
+		<div class="container clearfix">
+			<div class="left"></div>
+			<div class="right"></div>
+
+			<!-- <div class="clearfix"></div> -->
+		</div>
+		<div class="foot"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.two{
+			color: green;
+		}
+		#one{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="one">
+		<!-- 虽然id优先级大于class，但继承的权重为0，
+												所以文字为绿色 -->
+		<p class="two">
+			文字
+		</p>
+	</div>
+</body>
+</html>

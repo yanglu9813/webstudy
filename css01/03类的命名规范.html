@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.123{
+			color: red;
+		}
+		.123abc{
+			color: red;
+		}
+		.a123{
+			color: red;
+		}
+		.文字颜色{
+			color: red;
+		}
+		.&{
+			color: red;
+		}
+		.&abc{
+			color: red;
+		}
+		._{
+			color: pink;
+		}
+		._abc{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<!-- 不能以数字或数字开头定义类 -->
+	<p class="123">p1</p>
+	<p class="123abc">p2</p>
+
+	<p class="a123">p3</p>
+
+	<!-- 虽然有用，但不能以文字定义类 -->
+	<p class="文字颜色">p4</p>
+	<!-- 不能用特殊符号或特殊字符（“_”除外）开头定义类 -->
+	<p class="&">p5</p>
+	<p class="&abc">p6</p>
+	<!-- 可用下划线定义 -->
+	<p class="_">p7</p>
+	<p class="_abc">p7</p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		div{
+			color: red;
+			font-size: 30px;
+			font-family: 宋体;
+		}
+		.one{
+			color: green;
+		}
+		.two{
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		div文字
+		<!-- 与文字有关的属性都能继承 -->
+		<p>
+			p文字
+		</p>
+		<!-- a标签不能继承父元素中的文字颜色，可单独设置 -->
+		<a href="#">超链接1</a>
+		<a href="#" class="one">超链接2</a>
+		<!-- 标题标签不能继承文字大小，大小为0.67em乘上30px,
+												可单独设置 -->
+		<h6>标题1</h6>
+		<h6 class="two">标题2</h6>
+	</div>
+</body>
+</html>

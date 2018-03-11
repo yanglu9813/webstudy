@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		/*权重为100加100为200*/
+		#father #son{
+			color: green;
+		}
+		/*权重为100加1加10为111*/
+		#father p.c2{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<!-- 权重的叠加性 -->
+	<div id="father" class="c1">
+		<p id="son" class="c2">
+			试问这行字体是什么颜色的？
+		</p>
+	</div>
+</body>
+</html>

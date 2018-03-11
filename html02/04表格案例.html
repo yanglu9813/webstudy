@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+		<table border="1" width="400" height="300"
+		cellspacing="0" cellpadding="20" bgcolor="red" 
+		align="center">
+		<caption><h2>人员信息表</h2></caption>
+		<!-- border:   设置表格边框
+		     	width:  设置表格宽度
+		  		height:   设置高度
+		  		cellspacing：设置单元格之间的距离
+		  		cellpadding：文字距离单元格边框的距离
+				bgcolor="red"   设置背景颜色
+				align="center"  "left"| "right"    给td或者tr设置让文字居中table设置表格居中 -->
+			<tr>
+				<!-- <td align="center">姓名</td>
+				<td align="center">年龄</td>
+				<td align="center">职业</td>
+				<td align="center">籍贯</td> -->
+
+				<th>姓名</th>
+				<th>年龄</th>
+				<th>职业</th>
+				<th>籍贯</th>
+				<!-- <th></th>   设置表格标题，用法和td一样 -->
+			</tr>
+			<tr align="center">
+				<td>小红</td>
+				<td>28</td>
+				<td>挖掘机</td>
+				<td>山东</td>
+			</tr>
+			<tr>
+				<td>李云龙</td>
+				<td>18</td>
+				<td>前端</td>
+				<td>山西</td>
+			</tr>
+			<tr>
+				<td>张大彪</td>
+				<td>25</td>
+				<td>技术辅导</td>
+				<td>石家庄</td>
+			</tr>
+		</table>
+		<hr>
+		<table width="500" height="400" border="1" cellspacing="0">
+			<thead>
+				<tr>
+					<td>a</td>
+					<td>a</td>
+					<td>a</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>a</td>
+					<td>a</td>
+					<td>a</td>
+				</tr>
+				<tr>
+					<td>a</td>
+					<td>a</td>
+					<td>a</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>a</td>
+					<td>a</td>
+					<td>a</td>
+				</tr>
+			</tfoot>
+		</table>
+		<hr>
+		<table width="500" height="400" border="1" cellspacing="0">
+			<tr>
+				<td></td>
+				<td rowspan="2"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<!-- <td></td> -->
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="4"></td>
+				<!-- <td></td>
+				<td></td>
+				<td></td> -->
+			</tr>
+			<tr>
+				<td colspan="2"></td>
+				<td></td>
+				<td></td>
+				<!-- <td></td> -->
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="3"></td>
+				<!-- <td></td>
+				<td></td> -->
+			</tr>
+		</table>
+</body>
+</html>

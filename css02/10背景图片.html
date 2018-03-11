@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.one{
+			background-image: url("1.png");
+
+			width: 1000px;
+			height: 1000px;
+			background-repeat: no-repeat;/*不平铺*/
+			background-color: pink;
+			background-position: right top;/*图片位置为右上角*/
+			/*设置具体值： left| right| top| bottom| cneter*/
+			/*background-attachment: fixed;*/
+		}
+		.two{
+			background-image: url("1.png");
+
+			width: 1000px;
+			height: 1000px;
+			background-repeat: repeat-x;/*横向平铺*/
+			/*repeat （默认值）| no-repeat （不平铺）| 
+	   			repeat-x | （横向平铺）repeat-y （纵向平铺）*/
+			background-color: yellow;
+			background-position: 300px 50px;
+			background-attachment: fixed;
+		}
+		/*repeat （默认值）| no-repeat （不平铺）| 
+   			repeat-x | （横向平铺）repeat-y （纵向平铺）*/
+	</style>
+</head>
+<body>
+	<div class="one">
+		
+	</div>
+	<div class="two">
+		
+	</div>
+</body>
+</html>

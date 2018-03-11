@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.one,.two{
+			width: 100px;
+			height: 100px;
+
+			background-color: yellowgreen;
+		}
+		.one{
+			/*margin-bottom: 10px;*/
+			margin-bottom: 100px;
+		}
+		.two{
+			background-color: green;
+			/*margin-top: 10px;*/
+			margin-top: 150px;
+			/*当两个盒子垂直显示的时候，外边距以设置的最大值为准（外边距合并的第一种情况）*/
+		}
+	</style>
+</head>
+<body>
+	<div class="one"></div>
+	<div class="two"></div>
+</body>
+</html>
