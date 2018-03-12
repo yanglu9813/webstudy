@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul li{
+			list-style: none;
+			float: left;
+		}
+
+		.box{
+			width: 1259px;
+			height: 472px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.nav{
+			width: 960px;
+			height: 63px;
+			line-height: 63px;
+			background-color: #434343;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin-left: -480px;
+		}
+		li a{
+			display: inline-block;
+			width: 160px;
+			height: 63px;
+			color: white;
+			text-align: center;
+		}
+		li a.public:hover{
+			background-color: #C7CBD1;
+		}
+		.triangle{
+			width: 13px;
+			height: 9px;
+			position: absolute;
+			bottom: 63px;
+			left: 225px;
+		}
+		.login{
+			width: 342px;
+			height: 126px;
+			position: absolute;
+			bottom: 63px;
+			left: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="sf.png">
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="#">运单查询</a>
+				</li>
+				<li>
+					<a href="#" class="public">运费查询</a>
+				</li>
+				<li>
+					<a href="#" class="public">时效查询</a>
+				</li>
+				<li>
+					<a href="#" class="public">服务网点查询</a>
+				</li>
+				<li>
+					<a href="#" class="public">收送范围查询</a>
+				</li>
+				<li>
+					<a href="#" class="public">客户专区</a>
+				</li>
+			</ul>
+		</div>
+		<div class="triangle">
+			<img src="4.png">
+		</div>
+		<div class="login">
+			<img src="3.png">
+		</div>
+	</div>
+</body>
+</html>

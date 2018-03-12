@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		div p{
+			color: red;
+		}
+
+		p div,p h4,p ul li{
+			color: red;
+		}
+
+		h4 p,h4 div,h4 ul li{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p>一段文字</p>
+	</div>
+	<!-- div可以包含任何标准流下的元素 -->
+
+	<p>
+		<div>div</div>
+		<h4>标题</h4>
+		<ul>
+			<li>列表</li>
+			<li>列表</li>
+			<li>列表</li>
+		</ul>
+	</p>
+	<!-- p标签中不能包含div 和 标题标签 及列表标签。 -->
+
+	<h4>
+		<p>p标签</p>
+		<div>div</div>
+		<ul>
+			<li>列表</li>
+			<li>列表</li>
+			<li>列表</li>
+		</ul>
+	</h4>
+	<!-- 标题标签可以包含其他标签。 -->
+</body>
+</html>
