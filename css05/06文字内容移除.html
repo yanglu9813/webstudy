@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		a{
+			width: 200px;
+			height: 200px;
+			display: inline-block;
+			background-color: pink;
+
+			text-indent: -60px;
+			/*把文字隐藏到左边看不见的地方了*/
+		}
+		div{
+			height: 0;
+			width: 300px;
+			padding-top: 100px;
+			/*高度是0，padding-top江盒子挤下来，文字成超出部分*/
+			background-color: yellowgreen;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<a href="#">搜狐</a>
+	<div>文字</div>
+</body>
+</html>
