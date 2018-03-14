@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		/*css样式初始化*/
+		body,h1,h2,h3,h4,h5,h6,ul,dl,dd,p{
+			margin: 0;
+			padding: 0;
+		}
+		body,div,p,h1,h2,h3,h4,h5,h6,a,span{
+			font-size: 12px;
+			font-family: "宋体","微软雅黑";
+		}
+		a{
+			text-decoration: none;
+		}
+		input{
+			border: 0 none;/*去掉边框*/
+			outline-style: none;/*去掉轮廓线*/
+		}
+		ul{
+			list-style: none;
+		}
+
+
+		/*头部分*/
+		.head{
+			width: 980px;
+			height: 62px;
+			margin: 0 auto;
+
+			overflow: hidden;
+			/*解决外边距塌陷*/
+		}
+		.logo{
+			height: 39px;
+			width: 179px;
+			margin-top: 20px;
+			float: left;
+		}
+		.serch{
+			float: right;
+			margin-top: 20px;
+			border: solid #C7CBD1 1px;
+		}
+		.serch-text{
+			width: 165px;
+			height: 28px;
+			float: left;
+		}
+		.serch .btn{
+			height: 30px;
+			width: 30px;
+			float: left;
+			background: url("images/search2.jpg");
+		}
+
+
+		/*导航部分*/
+		.nav{
+			height: 55px;
+			border-top: 1px solid #6C6D69;
+			background: url("images/nav_bg.png");
+		}
+		.nav ul{
+			margin-left: 185px;
+		}
+		ul li{
+			height: 55px;
+			line-height: 55px;
+			float: left;
+			background: url('images/nav_bg-line.png') no-repeat right top;
+		}
+		.nav a{
+			display: inline-block;
+			height: 55px;
+			padding: 0 46px;
+			color: black;
+			font-weight: 700;
+		}
+		.nav a:hover{
+			color: #B5E247;
+		}
+
+
+		/*banner部分*/
+		.banner{
+			width: 980px;
+			height: 579px;
+			background: url("images/banner.jpg");
+			margin: 0 auto;
+		}
+
+		/*公告部分*/
+		.news{
+			height: 29px;
+			border-top: 1px solid #e1e1e1;
+			border-bottom: 1px solid #e1e1e1;
+			background-color: #FBFBFB;
+			margin-bottom: 10px;
+		}
+		.news-body{
+			width: 980px;
+			height: 29px;
+			margin: 0 auto;
+		}
+		.l-news{
+			float: left;
+			line-height: 29px;
+		}
+		.r-imgs{
+			float: right;
+			margin-top: 7px;
+		}
+
+
+		/*商品展示*/
+		.productlist{
+			width: 980px;
+			margin: 0 auto;
+		}
+		.l-list{
+			width: 310px;
+			height: 224px;
+			border: 1px solid #E4E4E4;
+			float: left;
+		}
+		.m-list{
+			width: 373px;
+			height: 224px;
+			border: 1px solid #E4E4E4;
+			float: left;
+			margin-left: 12px;
+		}
+		.r-list{
+			width: 268px;
+			height: 224px;
+			border: 1px solid #E4E4E4;
+			float: right;
+		}
+		.public{
+			margin-top: 12px;
+			margin-left: 6px;
+			color: #7AB800;
+
+		}
+		.public img{
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<!-- 头部分 -->
+		<div class="head">
+			<!-- logo部分 -->
+			<div class="logo">
+				<img src="images/logo.jpg">
+			</div>
+			<!-- 搜索部分 -->
+			<div class="serch">
+				<input type="text" value="请输入关键字" class="serch-text">
+				<input type="button" class="btn">
+			</div>	
+		</div>
+
+
+	<!-- 导航部分 -->
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="#">首页</a>
+				</li>
+				<li>
+					<a href="#">智能手机</a>
+				</li>
+				<li>
+					<a href="#">平板电脑</a>
+				</li>
+				<li>
+					<a href="#">配件</a>
+				</li>
+				<li>
+					<a href="#">服务支持</a>
+				</li>
+				<li>
+					<a href="#">关于尚合</a>
+				</li>
+			</ul>
+		</div>
+
+	<!-- banner部分 -->
+		<div class="banner">
+			
+		</div>
+
+	<!-- 公告部分 -->
+		<div class="news">
+			<div class="news-body">
+				<!-- 左边信息标题 -->
+				<div class="l-news">
+					最新公告：尚合Aone智能手机入网证已获取工信部门审批下发。尚合官网
+				</div>
+				<!-- 右边图片信息 -->
+				<div class="r-imgs">
+					<img src="images/zone.png">
+					<img src="images/renren.png">
+					<img src="images/xinlang.png">
+					<img src="images/weibo.png">
+				</div>
+			</div>
+		
+
+
+
+
+		<!-- 商品展示 -->
+		<div class="productlist">
+			
+		</div></div>
+
+	<!-- 商品展示 -->
+		<div class="productlist">
+			<div class="l-list">
+				<div class="public">
+					<img src="images/o.jpg">
+					<span>新品发布</span>
+				</div>
+			</div>
+			<div class="m-list">
+				<div class="public">
+					<img src="images/o.jpg">
+					<span>新品发布</span>
+				</div>
+			</div>
+			<div class="r-list">
+				<div class="public">
+					<img src="images/o.jpg">
+					<span>新品发布</span>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
