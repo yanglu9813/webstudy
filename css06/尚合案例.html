@@ -66,7 +66,7 @@
 		.nav ul{
 			margin-left: 185px;
 		}
-		ul li{
+		.nav li{
 			height: 55px;
 			line-height: 55px;
 			float: left;
@@ -99,6 +99,7 @@
 			border-bottom: 1px solid #e1e1e1;
 			background-color: #FBFBFB;
 			margin-bottom: 10px;
+			margin-top: 10px;
 		}
 		.news-body{
 			width: 980px;
@@ -125,6 +126,24 @@
 			height: 224px;
 			border: 1px solid #E4E4E4;
 			float: left;
+			position: relative;
+		}
+		.picture{
+			width: 205px;
+			height: 149px;
+			position: absolute;
+			left: 52px;
+			top: 45px;
+		}
+		.l-sj{
+			position: absolute;
+			left: 20px;
+			top: 100px;
+		}
+		.r-sj{
+			position: absolute;
+			right: 20px;
+			top: 100px;
 		}
 		.m-list{
 			width: 373px;
@@ -133,11 +152,43 @@
 			float: left;
 			margin-left: 12px;
 		}
+		.m-list ul{
+			margin-top: 10px;
+			margin-left: 23px;
+			margin-right: 23px;
+		}
+		.m-list li{
+			height: 27px;
+			line-height: 27px;
+			border-bottom: 1px dashed #DCDCDC;
+		}
+		.m-list a{
+			color: #666;
+		}
+		a.fcolor{
+			color: red;
+			font-weight: 700;
+		}
+		.m-list a:hover{
+			color: #7AB800;
+		}
 		.r-list{
 			width: 268px;
 			height: 224px;
 			border: 1px solid #E4E4E4;
 			float: right;
+			color: #666;
+		}
+		.r-list p{
+			margin-top: 30px;
+			margin-left: 28px;
+		}
+		.div-pub{
+			height: 12px;
+			line-height: 12px;
+			margin: 10px 0 0 28px;
+			border-left: 3px solid #7AB800;
+			padding-left: 6px;
 		}
 		.public{
 			margin-top: 12px;
@@ -147,6 +198,50 @@
 		}
 		.public img{
 			vertical-align: middle;
+		}
+		/*清除浮动*/
+		.clearfix:after{
+			content: "";
+			height: 0;
+			line-height: 0;
+			display: block;
+			clear: both;
+			visibility: hidden;
+		}
+		.clearfix{
+			zoom: 1;
+		}
+		.foot{
+			height: 220px;
+			background-color: #2D2D2D;
+			margin-top: 20px;
+		}
+		.main-foot{
+			width: 980px;
+			height: 220px;
+			margin: 0 auto;
+		}
+		.main-foot dl{
+			float: left;
+			margin-right: 50px;
+			margin-top: 20px;
+		}
+		.main-foot dt{
+			color: #C7C7C7;
+		}
+		.main-foot dd{
+			color: #707070;
+			margin-top: 10px;
+		}
+		.bottom{
+			height: 82px;
+			background-color: #2D2D2D;
+			text-align: center;
+
+			border-top: 2px dashed #414141;
+		}
+		.bottom p{
+			margin-top: 10px;
 		}
 	</style>
 </head>
@@ -220,25 +315,73 @@
 		</div></div>
 
 	<!-- 商品展示 -->
-		<div class="productlist">
+		<div class="productlist clearfix">
 			<div class="l-list">
 				<div class="public">
 					<img src="images/o.jpg">
 					<span>新品发布</span>
 				</div>
+				<div class="picture">
+					<img src="images/home_hot_01.png">
+				</div>
+				<div class="l-sj">
+					<img src="images/left.png">
+				</div>
+				<div class="r-sj">
+					<img src="images/right.png">
+				</div>
 			</div>
 			<div class="m-list">
 				<div class="public">
 					<img src="images/o.jpg">
-					<span>新品发布</span>
+					<span>新闻中心</span>
+					<ul>
+						<li><a href="#" class="fcolor">致歉公告</a></li>
+						<li><a href="#">首批尚合Aone已全部售罄！</a></li>
+						<li><a href="#">【媒体报道】国产高性价比 尚合Aone四核手机评测</a></li>
+						<li><a href="#">我司产品已通过了国家强制性产品产品3C认证</a></li>
+						<li><a href="#">尚合Aone智能手机入网已获工信部门审批下发</a></li>
+						<li><a href="#">我司通过ISO-9011:2008国际质量管理体系认证</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="r-list">
 				<div class="public">
 					<img src="images/o.jpg">
-					<span>新品发布</span>
+					<span>技术与支持</span>
 				</div>
+				<div class="div-pub">售后服务</div>
+				<div class="div-pub">投诉与建议</div>
+				<div class="div-pub">联保网点</div>
+				<div class="div-pub">常见问题FAQ</div>
+				<p>深圳市汇聚众合科技发展有限公司<br>服务热线：400-633-7922</p>
 			</div>
 		</div>
+
+	<!-- 结尾部分 -->
+	<div class="foot">
+		<div class="main-foot">
+			<dl>
+				<dt>尚合首页</dt>
+				<dd>返回首页</dd>
+			</dl>
+			<dl>
+				<dt>智能手机</dt>
+				<dd>返回首页</dd>
+			</dl>
+			<dl>
+				<dt>平板电脑</dt>
+				<dd>返回首页</dd>
+			</dl>
+			<dl>
+				<dt>尚合首页</dt>
+				<dd>返回首页</dd>
+			</dl>
+		</div>
+		<div class="bottom">
+			<p>深圳市汇聚众合科技发展有限公司</p>
+			<p>服务热线：400-633-7922</p>
+		</div>
+	</div>
 </body>
 </html>
