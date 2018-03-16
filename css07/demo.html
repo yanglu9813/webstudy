@@ -100,6 +100,111 @@
 			float: left;
 			background: url("images/serch.png")
 		}
+		.m-nav{
+			height: 25px;
+			border-bottom: 2px solid #0266A3;
+			margin-top: 10px;
+		}
+		.m-nav li{
+			height: 25px;
+			float: left;
+		}
+		.m-nav a{
+			height: 25px;
+			display: inline-block;
+			line-height: 25px;
+			padding: 0 10px;
+		}
+		.m-nav a:hover{
+			background-color: #0266A3;
+			color: white;
+		}
+		/*主体banner*/
+		.banner{
+			height: 210px;
+			margin-top: 10px;
+		}
+		/*左盒子*/
+		.l-banner{
+			height: 210px;
+			width: 200px;
+			float: left;
+		}
+		/*商机市场*/
+		.t-banner{
+			height: 30px;
+			background-color: #0266A3;
+			line-height: 30px;
+			padding-left: 20px;
+			color: white;
+			font-weight: 700;
+		}
+		/*列表导航*/
+		.l-banner ul{
+			height: 180px;
+			background-color: #EBF0F6;
+			overflow: hidden;
+		}
+		.l-banner li{
+			height: 27px;
+			margin-left: 9px;
+			margin-top: 10px;
+			padding-left: 30px;
+		}
+		.l-banner a{
+			color: #606060;
+		}
+		.l-banner li.one{
+			background: url("images/icon_1.png") no-repeat;
+
+		}
+		.l-banner li.two{
+			background: url("images/icon_2.png") no-repeat;
+
+		}
+		.l-banner li.three{
+			background: url("images/icon_3.png") no-repeat;
+
+		}
+		.l-banner li.four{
+			background: url("images/icon_4.png") no-repeat;
+
+		}
+		.l-banner li.five{
+			background: url("images/icon_5.png") no-repeat;
+
+		}
+		.l-banner li.six{
+			background: url("images/icon_6.png") no-repeat;
+
+		}
+		/*中间盒子*/
+		.m-banner{
+			height: 212px;
+			width: 520px;
+			float: left;
+			margin-left: 15px;
+		}
+		/*右盒子*/
+		.r-banner{
+			width: 236px;
+			height: 210px;
+			float: right;
+		}
+		/*右上盒子*/
+		.rt-banner{
+			border: 1px solid #E0E6F0;
+			width: 234px;
+			height: 96px;
+		}
+		/*右下盒子*/
+		.rb-banner{
+			border: 3px solid #E0E6F0;
+			width: 229px;
+			height: 94px;
+			margin-top: 18px;
+			margin-left: 1px;
+		}
 	</style>
 </head>
 <body>
@@ -128,6 +233,8 @@
 
 	<!-- 主体 -->
 		<div class="m-body">
+
+			<!-- 搜索 -->
 			<div class="serch">
 				<div class="logo">
 					<img src="images/1.png">
@@ -137,6 +244,63 @@
 					<input type="button" class="btn">
 				</div>
 			</div>
+
+			<!-- 主导航 -->
+			<div class="m-nav">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">建筑材料</a></li>
+					<li><a href="#">儿童安全坐椅</a></li>
+					<li><a href="#">工艺美术品</a></li>
+				</ul>
+			</div>
+	
+			<!-- 主体banner -->
+			<div class="banner">
+				<!-- 左盒子 -->
+				<div class="l-banner">
+					<div class="t-banner">商机市场</div>
+					<ul>
+						<li class="one">
+							<a href="#">建筑材料</a>
+						</li>
+						<li class="two">
+							<a href="#">儿童安全坐椅</a>
+						</li>
+						<li class="three">
+							<a href="#">工艺美术品</a>
+						</li>
+						<li class="four">
+							<a href="#">建筑材料</a>
+						</li>
+						<li class="five">
+							<a href="#">儿童安全坐椅</a>
+						</li>
+						<li class="six">
+							<a href="#">工艺美术品</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- 中间盒子 -->
+				<div class="m-banner">
+					<img src="images/center.png">
+				</div>
+
+				<!-- 右盒子 -->
+				<div class="r-banner">
+					<!-- 右上盒子 -->
+					<div class="rt-banner">
+						<img src="images/center-r2.png">
+					</div>
+					<!-- 右下盒子 -->
+					<div class="rb-banner">
+						<img src="images/center-r.png">
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 </body>
 </html>
