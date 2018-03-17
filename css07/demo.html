@@ -237,7 +237,6 @@
 		.lt-list{
 			width: 656px;
 			height: 143px;
-			background-color: green;
 			margin-top: 15px;
 			margin-left: 26px;
 			overflow: hidden;
@@ -251,13 +250,14 @@
 		.ltl-list{
 			height: 143px;
 			width: 319px;
-			background-color: blue;
 			position: relative;
+			float: left;
+			margin-left: 6px;
 		}
 		.ltl-list .c1{
 			position: absolute;
 			left: 23px;
-			top: 10px;
+			top: -5px;
 			border: 1px solid #EEEEEE;
 			padding:15px 2px;
 		}
@@ -285,6 +285,41 @@
 			position: absolute;
 			left: 130px;
 			top: 120px;
+		}
+		/*建材资讯*/
+		.jczx{
+			height: 30px;
+			background-color: #EBEDEF;
+			padding-left: 20px;
+			line-height: 30px;
+			font-weight: 700;
+		}
+		.r-list ul{
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+		.r-list li{
+			height: 25px;
+			line-height: 25px;
+			background: url("images/li_bg.png") no-repeat left 10px;
+			padding-left: 13px;
+		}
+		.r-list a{
+			color: #444444;
+		}
+		.r-list a:hover{
+			color: #0A84E3;
+		}
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+		}
+		.clearfix{
+			zoom: 1;
 		}
 	</style>
 </head>
@@ -387,7 +422,7 @@
 				</div>
 
 			<!-- 建筑材料列表 -->
-				<div class="jzcl-list">
+				<div class="jzcl-list  clearfix">
 					<!-- 左盒子 -->
 					<div class="l-list">
 						<!-- 左盒子上面的盒子 -->
@@ -408,15 +443,59 @@
 									239.00 <del>￥386.00</del>
 								</p>
 								<p class="p4">
-									限量99件 已售出 20件
+									限量99件 已售出20件
 								</p>
 							</div>
-							<!-- 左盒子上面的盒子的右上盒子 -->
+							<!-- 左盒子上面的盒子的右盒子 -->
 							<div class="ltl-list">
-								<img src="images/c1.png" class="c1">
+								<img src="images/c2.png" class="c1">
 								<img src="images/buy.png" class="buy">
 								<p class="p1">
-									好太太晾衣架铝钛合金 升降双杆
+									威尔舒木地板 12mm厚网络控制器
+								</p>
+								<p class="p2">
+									防滑防污 清理简单
+									<br>
+									拍壁紧密 环保健康
+								</p>
+								<p class="p3">
+									10.00 <del>￥68.00</del>
+								</p>
+								<p class="p4">
+									限量100件 已售出0件
+								</p>
+							</div>
+						</div>
+						<!-- 左盒子中间的横线盒子 -->
+						<div class="lm-list">
+						</div>
+						<!-- 左盒子下面的盒子 -->
+						<div class="lt-list">
+							<!-- 左盒子下面的盒子的左盒子 -->
+							<div class="ltl-list">
+								<img src="images/c3.png" class="c1">
+								<img src="images/buy.png" class="buy">
+								<p class="p1">
+									好艺达高档太空铝三件套3500套
+								</p>
+								<p class="p2">
+									经典的设计风格
+									<br>
+									优质的产品品质
+								</p>
+								<p class="p3">
+									99.00 <del>￥477.00</del>
+								</p>
+								<p class="p4">
+									限量100件 已售出51件
+								</p>
+							</div>
+							<!-- 左盒子下面的盒子的右盒子 -->
+							<div class="ltl-list">
+								<img src="images/c4.png" class="c1">
+								<img src="images/buy.png" class="buy">
+								<p class="p1">
+									好太太晾衣架铝8819
 								</p>
 								<p class="p2">
 									自动换挡 安全耐用
@@ -427,23 +506,39 @@
 									239.00 <del>￥386.00</del>
 								</p>
 								<p class="p4">
-									限量99件 已售出 20件
+									限量99件 已售出20件
 								</p>
 							</div>
 						</div>
-						<!-- 左盒子中间的横线盒子 -->
-						<div class="lm-list">
-						</div>
-						<!-- 左盒子下面的盒子 -->
-						<div class="lt-list"></div>
 					</div>
 					<!-- 右盒子 -->
 					<div class="r-list">
-						
+						<div class="jczx">
+							建材资讯
+						</div>
+						<ul>
+							<li><a href="#">贵阳钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">南昌钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">杭州钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">石家庄钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">呼和浩特钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">天津钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">昆明阳钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">拉萨钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">郑州钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">合肥钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">广州钢铁市场7月17日价格行情</a></li>
+							<li><a href="#">马鞍山钢铁市场7月17日价格行情</a></li>
+						</ul>
 					</div>
 				</div>
-
-
+		
+			<!-- 儿童安全座椅 -->
+				<div class="jzcl">
+					儿童安全座椅
+				</div>
 		</div>
+
+
 </body>
 </html>
