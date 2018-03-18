@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		var n1=123;
+		var n2=124;
+		var n3="123";
+		var n4="abc";
+		var n5=0;
+
+		alert(typeof(n1+n2));
+		//两个数字类型变量相加，结果为数字类型
+		
+		alert(typeof(n1+n3));
+		//一个数字类型和一个字符串类型变量相加，最后结果为字符串，加号起的是一个连接的作用。
+		
+		alert(typeof(n2-n1));
+		//如果两个数字类型的变量相减，最后的结果为数字类型。
+
+		alert(typeof(n3-n1));
+		//如果一个数字类型的变量和一个数字的字符串类型的变量相减，最后结果为数字类型。
+		
+		alert(n4-n1);//如果一个数字类型的变量和一个非数字类型的变量相减，最后结果为NaN。
+		alert(typeof(n4-n1));//NaN的数据类型属于number类型。
+
+		alert(n4-n3);//NAN
+		alert(typeof(n4-n3));//number
+
+		alert(n2/n1);
+		alert(typeof(n2/n1));
+		// 如果两个数字类型的变量相除，最后结果为数字类型
+
+		alert(n3/n1);
+		alert(typeof(n3/n1));
+		//如果一个数字类型的变量和一个数字的字符串变量相除，最后结果为数字类型。
+		
+		alert(n1/n5);
+		alert(typeof(n1/n5));
+		/*如果一个将数字0作为除数，得出的结果是infinity（无穷大）
+		infinity的数据类型属于number类型*/
+
+		alert(n2%n1);
+		alert(typeof(n2%n1));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
