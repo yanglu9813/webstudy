@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		//用户输入一个三位数
+		var n1=prompt("请输入一个三位数");
+		n1=parseInt(n1);//将数字转换为number类型
+		var bai=parseInt(n1/100);//获取百位
+		var shi=parseInt((n1%100)/10);//获取十位
+		var ge=parseInt(n1%10);//获取个位
+		var sum=bai+shi+ge;
+		alert(bai+","+shi+","+ge);//分别显示百位，十位，个位
+		alert(sum);//计算和	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

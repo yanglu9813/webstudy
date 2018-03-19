@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+
+		//方法1 Number()
+		
+			// var s1="123";
+			//可以将数字类型的字符串转换为数字
+			// var s1="abc";
+			//非数字类型的字符串最后结果为NaN
+			//var s1="123.723";
+			/* 最后的结果保留的愿数据，没有对数字进行四舍五入运算。*/
+			//var s1="123.723ed";
+			//如果在数字后加上非数字的字符，最后结果为NaN
+			
+			// s1=Number(s1);
+			// alert(s1);
+			// alert(typeof(s1));
+		
+
+
+		
+		//方法2 parseInt()
+			
+			//var n1=123.567;
+			/*将数字类型的字符串通过该方法转换后，只保留数字的整数部分，不会进行四舍五入运算。*/
+			//var n1="abc";
+			//var n1="abc_123";
+			// 非数字类型的字符串转换后的结果为NaN。
+			//var n1="1.23_abc";//1
+			//var n1="12e.3_abc";//12
+			//如果在数字后加上非数字的字符，也可以转换成功
+
+			// n1=parseInt(n1);
+			// alert(n1);
+			// alert(typeof(n1));
+
+
+
+		//方法3 parseFloat()
+			
+			//var n1=123.656;
+			//最后保留的元数据，不会对数字进行四舍五入运算。
+			//var n1="abc";
+			// 非数字类型的字符串转换后的结果为NaN。
+			//var n1="1.23_abc";//1.23
+			//var n1="12e.3_abc";//12
+			//如果在数字后加上非数字的字符，也可以转换成功
+
+
+			n1=parseFloat(n1);
+			alert(n1);
+			alert(typeof(n1));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
