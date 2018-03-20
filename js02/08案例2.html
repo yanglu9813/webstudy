@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		var name=prompt("请输入姓名");
+		var score=prompt("请输入成绩");
+		score=parseInt(score);
+		if (score<60) {
+			alert("不及格");
+		}
+		else if (score>=60&&score<80) {
+			alert("及格");
+		}
+		else if (score>=80&&score<95) {
+			if(score==90){
+				alert("姓名："+name+"，成绩："+score);
+			}
+			else{
+				alert("良好");
+			}
+		}
+		else{
+			alert("优秀");
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
