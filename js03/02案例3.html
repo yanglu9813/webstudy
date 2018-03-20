@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		/*写一个程序，接收用户输入的三个数字，使用三元运算表达式找出最大值*/
+
+		var n=prompt("请输入三个数字");
+		var n1=parseInt(n/100);
+		var n2=parseInt(n%100/10);
+		var n3=parseInt((n%100)%10);
+
+		(n1>n2?n1:n2)>n3?alert(n1>n2?n1:n2):alert(n3);
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
