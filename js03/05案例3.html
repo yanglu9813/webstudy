@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		/*首先接收用户输入用户名和密码，只要用户名不是admin或密码不是888就一直提示重新输入，如果正确则提示登录成功*/
+		var username=prompt("请输入用户名");
+		var pwd=prompt("请输入密码");
+		while(username!="admin"||pwd!="888"){
+			alert("请重新输入");
+			username=prompt("请输入用户名");
+			pwd=prompt("请输入密码");
+
+			if (username=="admin"&&pwd=="888") {
+	
+			}else{
+				alert("登录失败");
+			}
+		}
+		alert("登录成功");
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
