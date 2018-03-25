@@ -8,16 +8,18 @@
 		var n=1;
 		while(n<=3){
 			var n1=parseInt((Math.random()*10));
-			var n2=prompt(请输入一个数字);
+			var n2=prompt("请输入一个数字");
 			if (n1==n2) {
 				alert("赢得游戏");
-				n=4;
+				break;
+			}else if (n==3) {
+				alert("游戏结束");
+				break;
 			}else{
 				alert("再试一次");
 				n++;
 			}
 		}
-		alert("")
 	</script>
 </head>
 <body>
