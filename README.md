@@ -2,7 +2,6 @@
 ## 第一部分：html
 - [标签学习](https://github.com/yanglu9813/webstudy/blob/master/html01/03html%E6%A0%87%E7%AD%BE%E4%BB%8B%E7%BB%8D.html)
 - [标签学习成果案例1](https://github.com/yanglu9813/webstudy/blob/master/html01/03eg.html) | [标签学习成果案例2](https://github.com/yanglu9813/webstudy/blob/master/html02/07eg.html)
-[案例预览效果1](https://yanglu9813.github.io/webstudy/html01/03eg.html) | [案例预览效果2](https://yanglu9813.github.io/webstudy/html02/07eg.html)
 - [超链接学习](https://github.com/yanglu9813/webstudy/blob/master/html01/06%E8%B6%85%E9%93%BE%E6%8E%A5.html)
 - [锚链接学习](https://github.com/yanglu9813/webstudy/blob/master/html01/06%E9%94%9A%E9%93%BE%E8%8A%82.html)
 - [列表学习](https://github.com/yanglu9813/webstudy/blob/master/html01/06%E5%88%97%E8%A1%A8.html)
@@ -10,7 +9,6 @@
 - [meta标签学习](https://github.com/yanglu9813/webstudy/blob/master/html02/02meta%E6%A0%87%E7%AD%BE%E4%BB%8B%E7%BB%8D.html)
 - [表格学习](https://github.com/yanglu9813/webstudy/blob/master/html02/04%E8%A1%A8%E6%A0%BC%E6%A1%88%E4%BE%8B.html)
 - [表格学习成果案例1](https://github.com/yanglu9813/webstudy/blob/master/html02/04%E8%A1%A8%E6%A0%BC%E6%A1%88%E4%BE%8B.html) | [表格学习成果案例2](https://github.com/yanglu9813/webstudy/blob/master/html02/04eg.html) | [表格学习成果案例3](https://github.com/yanglu9813/webstudy/blob/master/html02/04eg%E8%AF%BE%E7%A8%8B%E8%A1%A8.html)
-[案例1效果预览](https://yanglu9813.github.io/webstudy/html02/04表格案例.html) | [案例2效果预览](https://yanglu9813.github.io/webstudy/html02/04eg课程表.html) | [案例3效果预览](https://yanglu9813.github.io/webstudy/html02/04eg.html)
 - [表单控件学习](https://github.com/yanglu9813/webstudy/blob/master/html02/0506%E8%A1%A8%E5%8D%95%E6%8E%A7%E4%BB%B6%E4%BB%8B%E7%BB%8D.html)
 - [表单控件学习成果预览](https://yanglu9813.github.io/webstudy/html02/0506%E8%A1%A8%E5%8D%95%E6%8E%A7%E4%BB%B6%E4%BB%8B%E7%BB%8D.html)
 - [表单控件补充学习](https://github.com/yanglu9813/webstudy/blob/master/html02/07%E8%A1%A8%E5%8D%95%E6%8E%A7%E4%BB%B6%E8%A1%A5%E5%85%85%EF%BC%88%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89%E5%8C%96%EF%BC%89.html)
