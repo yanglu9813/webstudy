@@ -87,6 +87,7 @@
 - [手机官网案例](https://yanglu9813.github.io/webstudy/css06/尚合案例.html)
 - [建材商城案例](https://yanglu9813.github.io/webstudy/css07/demo.html)
 ## 第三部分：JS
+### JS01
 - [js的书写位置](https://github.com/yanglu9813/webstudy/blob/master/js01/03js%E7%9A%84%E4%B9%A6%E5%86%99%E4%BD%8D%E7%BD%AE.html)
 - [页面输出消息方法](https://github.com/yanglu9813/webstudy/blob/master/js01/03%E9%A1%B5%E9%9D%A2%E8%BE%93%E5%87%BA%E6%B6%88%E6%81%AF%E6%96%B9%E6%B3%95.html)
 - [变量的定义](https://github.com/yanglu9813/webstudy/blob/master/js01/04%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89.html)
@@ -95,3 +96,16 @@
 - [数据类型判断](https://github.com/yanglu9813/webstudy/blob/master/js01/08%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD.html)
 - [加减除等运算](https://github.com/yanglu9813/webstudy/blob/master/js01/08%E5%8A%A0%E5%87%8F%E9%99%A4%E7%AD%89%E8%BF%90%E7%AE%97.html)
 - [计算星期几案例](https://github.com/yanglu9813/webstudy/blob/master/js01/09%E6%A1%88%E4%BE%8B%E4%BB%8B%E7%BB%8D.html)
+### JS02
+- [date](https://github.com/yanglu9813/webstudy/blob/master/js02/01date%E4%BB%8B%E7%BB%8D.html)
+- [Math](https://github.com/yanglu9813/webstudy/blob/master/js02/02Math%E5%AF%B9%E8%B1%A1%E4%BB%8B%E7%BB%8D.html)
+- [数据类型转化之将数字转化为字符串](https://github.com/yanglu9813/webstudy/blob/master/js02/03%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2(%E5%B0%86%E6%95%B0%E5%AD%97%E8%BD%AC%E5%8C%96%E4%B8%BA%E5%AD%97%E7%AC%A6%E4%B8%B2).html)
+- [数据类型转化之将字符串转化为数字](https://github.com/yanglu9813/webstudy/blob/master/js02/03%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2(%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E5%8C%96%E4%B8%BA%E6%95%B0%E5%AD%97).html)
+- [数据类型转换之将其他数据类型转化为boolean](https://github.com/yanglu9813/webstudy/blob/master/js02/03%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2(%E5%B0%86%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E5%8C%96%E4%B8%BAboolean).html)
+- [数据类型转换案例](https://github.com/yanglu9813/webstudy/blob/master/js02/04%E6%A1%88%E4%BE%8B%E4%BB%8B%E7%BB%8D.html)
+- [条件判断案例1](https://github.com/yanglu9813/webstudy/blob/master/js02/07%E6%A1%88%E4%BE%8B1.html)
+- [条件判断案例2](https://github.com/yanglu9813/webstudy/blob/master/js02/07%E6%A1%88%E4%BE%8B2.html)
+- [条件判断案例3](https://github.com/yanglu9813/webstudy/blob/master/js02/07%E6%A1%88%E4%BE%8B3.html)
+- [条件判断案例4](https://github.com/yanglu9813/webstudy/blob/master/js02/07%E6%A1%88%E4%BE%8B4.htmll)
+- [多个条件判断案例1](https://github.com/yanglu9813/webstudy/blob/master/js02/08%E6%A1%88%E4%BE%8B1.html)
+- [多个条件判断案例2](https://github.com/yanglu9813/webstudy/blob/master/js02/08%E6%A1%88%E4%BE%8B2.html)
